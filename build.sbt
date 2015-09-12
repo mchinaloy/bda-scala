@@ -7,3 +7,5 @@ val scalaMock = "org.scalamock" %% "scalamock-scalatest-support" % "3.2" % "test
 
 libraryDependencies += scalaTest
 libraryDependencies += scalaMock
+
+jacoco.settings

@@ -3,7 +3,7 @@ package domain
 import org.scalamock.scalatest.MockFactory
 import org.scalatest.{BeforeAndAfter, FunSuite}
 
-class TransactionProcessorTest extends FunSuite with MockFactory with BeforeAndAfter {
+class TransactionProcessorUTest extends FunSuite with MockFactory with BeforeAndAfter {
 
   private val transactionProcessor = new TransactionProcessor(TransactionProcessorTest.BASE_CURRENCY)
 

@@ -3,7 +3,7 @@ package infrastructure.assembler
 import domain.Transaction
 import org.scalatest.FunSuite
 
-class TransactionToDomainAssemblerTest extends FunSuite {
+class TransactionToDomainAssemblerUTest extends FunSuite {
 
   private val transactionToDomainAssembler = new TransactionToDomainAssembler
 

@@ -3,7 +3,7 @@ package infrastructure.assembler
 import domain.CurrencyPair
 import org.scalatest.FunSuite
 
-class CurrencyToDomainAssemblerTest extends FunSuite {
+class CurrencyToDomainAssemblerUTest extends FunSuite {
 
   private val currencyToDomainAssembler = new CurrencyToDomainAssembler
 

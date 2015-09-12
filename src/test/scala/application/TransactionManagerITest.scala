@@ -4,7 +4,7 @@ import domain.{Transaction, TransactionProcessorMock}
 import org.scalamock.scalatest.MockFactory
 import org.scalatest.{BeforeAndAfter, FunSuite}
 
-class TransactionManagerTest extends FunSuite with MockFactory with BeforeAndAfter {
+class TransactionManagerITest extends FunSuite with MockFactory with BeforeAndAfter {
 
   private var transactionManager: TransactionManager = _
   private val transactionProcessor = stub[TransactionProcessorMock]
