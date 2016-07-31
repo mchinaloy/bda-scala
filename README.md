@@ -1,4 +1,4 @@
-# BigDataAggregatorScala
+# big-data-aggregator
 The original [Java BigDataAggregator](https://github.com/mikechinaloy/BigDataAggregatorJava) re-written in Scala using the following technologies:
 <br/>
 <br/>
